@@ -6,9 +6,13 @@ All the Khan Academy links in one place
 - [Projects](https://willard.fun/)
 - [Hotlist Activity](https://khanalytics.herokuapp.com/)
 - [Users](https://kasearch.learnerpages.com/)
+- [Deleted Users and Programs](https://github.com/MatthiasPortzel/ka-hearth/wiki)
+
+
+- [KA Wikia](https://khanacademy.fandom.com/wiki/Khan_Academy_Wiki)
+- [KA Extension](https://chrome.google.com/webstore/detail/the-khan-academy-extensio/gniggljddhajnfbkjndcgnomkddfcial?hl)
 
 ## Famous programs
-- [KA Extension](https://chrome.google.com/webstore/detail/the-khan-academy-extensio/gniggljddhajnfbkjndcgnomkddfcial?hl)
 - [MineKhan](https://www.khanacademy.org/cs/i/5647155001376768) / [External Link](https://willard.fun/minekhan)
 
 ## Tutorials
@@ -21,10 +25,9 @@ All the Khan Academy links in one place
 
 ## Archives
 - [Digital Dragon]()
-- [BlueLeaf]()
+- [BlueLeaf's Projects](https://www.khanacademy.org/profile/kaid_1192520661284464584340950/projects)
 - [Aidabaida]()
 - [LiveChat](https://www.khanacademy.org/cs/-/5175255520051200)
-- [KA Wikia](https://khanacademy.fandom.com/wiki/Khan_Academy_Wiki)
 
 ## Technical
 - [Known PJS Bugs](https://www.khanacademy.org/cs/-/6117906177359872)
