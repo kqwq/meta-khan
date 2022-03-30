@@ -36,13 +36,14 @@ All the Khan Academy links in one place
 - [SAL KA by Quinn Hardbrook](https://www.khanacademy.org/computer-programming/sal-ka-an-api-labs/5414181885788160)
 - [New KA API by Vexcess](https://www.khanacademy.org/computer-programming/new-ka-api/5236998489030656)
 
-## Pushing limits
+## Pushing Limits
 - [Open Problems by Aliquis](https://www.khanacademy.org/cs/-/6058668928843776)
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
-## Pushing Limits (protected by the KA community)
+## Pushing Limits (protected) <!-- HASHES START -->
 The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is the ID of the program.
 <!-- INSERT SECRET FILE HERE -->
+<!-- HASHES END -->
 
 ## Zendesk
 - [Apply to KACP Challenge Council](https://support.khanacademy.org/hc/en-us/articles/115003791172)

@@ -48,9 +48,11 @@ function convert() {
 
   // Check if the hash matches any of the hashes
   var match = false;
+  var nameOfMatch
   for (var i = 0; i < hashes.length; i++) {
     if (digest == hashes[i]) {
       match = true;
+      nameOfMatch = names[i];
     }
   }
   if (match) {
@@ -59,8 +61,9 @@ function convert() {
     <div class="match">
       <h4>Match!</h4>
       <p>The hash matches the hash of the following program:</p>
-      <a href="https://www.khanacademy.org/cs/s/${value}">Program Link for ${value}</a>
       <img src="https://www.khanacademy.org/computer-programming/expecto-patronum/${value}/latest.png">
+      <br>
+      <a href="https://www.khanacademy.org/cs/s/${value}">${nameOfMatch}</a>
     </div>
     `;
   } else {
@@ -70,14 +73,29 @@ function convert() {
 
 // fetch 
 var hashes = []
+var names = []
 fetch("./README.md")
   .then(response => response.text())
   .then(text => {
-    hashes = text.match(/hash=([0-9a-f]{64})/g);
+    let subText = text.substring(text.indexOf("<!-- HASHES START -->"), text.indexOf("<!-- HASHES END -->"));
+    hashes = subText.match(/hash=[0-9a-f]{64}/g);
     hashes = hashes.map(hash => hash.replace("hash=", ""));
+
+    names = subText.match(/\[[\w\s]+\]/g);
+    names = names.map(name => name.replace("[", "").replace("]", ""));
   }).catch(err => {
     alert("Could not load hashes from README.md");
   });
+
+// Get URL parameters
+setTimeout(() => {
+  let urlParams = new URLSearchParams(window.location.search);
+  let inputHash = urlParams.get("hash");
+  if (inputHash) {
+    document.querySelector("#in").value = "Unknown ID";
+    document.querySelector("#result").innerHTML = `<i>${inputHash}</i>`;
+  }
+}, 1000);
 
 </script>
 </html>

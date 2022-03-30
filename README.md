@@ -36,11 +36,11 @@ All the Khan Academy links in one place
 - [SAL KA by Quinn Hardbrook](https://www.khanacademy.org/computer-programming/sal-ka-an-api-labs/5414181885788160)
 - [New KA API by Vexcess](https://www.khanacademy.org/computer-programming/new-ka-api/5236998489030656)
 
-## Pushing limits
+## Pushing Limits
 - [Open Problems by Aliquis](https://www.khanacademy.org/cs/-/6058668928843776)
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
-## Pushing Limits (protected by the KA community)
+## Pushing Limits (protected) <!-- HASHES START -->
 The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is the ID of the program.
 - [Detect code edits](https://kqwq.github.io/meta-khan?hash=2ae686c47b1812ddbdbb6223736aa52ae00c8a9434628d01af81b6bd2d665f9f)
 - [Hmmmm Editor](https://kqwq.github.io/meta-khan?hash=e31b9deec89c7eb6346ba46b6d49ac0fe84aa825ba7670557c4188bac5f8e062)
@@ -49,6 +49,7 @@ The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is t
 - [postMessage Examples](https://kqwq.github.io/meta-khan?hash=ea3ed9e0e35571f94f02ac8eba345c7e2ab37d4cda9647ce09d5d17a64dfe20f)
 - [Linux Emulator](https://kqwq.github.io/meta-khan?hash=5b12321aa34ba29e44e217a26eb145f9b304c220b8d9319e090f43c9f76c95d0)
 - [KA Blockchain by Squishy](https://kqwq.github.io/meta-khan?hash=9b0e48897b0c03a81ca4525f1fae48a23e57ea182c5dc96b184996ba4651c938)
+<!-- HASHES END -->
 
 ## Zendesk
 - [Apply to KACP Challenge Council](https://support.khanacademy.org/hc/en-us/articles/115003791172)
