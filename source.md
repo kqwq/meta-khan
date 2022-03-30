@@ -1,4 +1,4 @@
-# Khan Hub
+# meta-khan
 
 All the Khan Academy links in one place
 
@@ -6,46 +6,46 @@ All the Khan Academy links in one place
 - [Projects](https://willard.fun/)
 - [Hotlist Activity](https://khanalytics.herokuapp.com/)
 - [Users](https://kasearch.learnerpages.com/)
+- [Deleted Users and Programs](https://github.com/MatthiasPortzel/ka-hearth/wiki)
 
-## Famous programs
-- [KA Extension](https://chrome.google.com/webstore/detail/the-khan-academy-extensio/gniggljddhajnfbkjndcgnomkddfcial?hl)
-- [MineKhan](https://www.khanacademy.org/cs/i/5647155001376768) / [External Link](https://willard.fun/minekhan)
-
-## Tutorials
-- [Tutorials From the KA community](https://www.khanacademy.org/cs/-/5912802022998016)
-- [Lionofgd's Guide to P3D](https://www.khanacademy.org/cs/-/5449718509731840)
-- [Platformer Physics](https://www.khanacademy.org/computer-programming/platformer-physics/5217723531345920)
-
-## Boilerplate 
-- [Simple Elements by Aliquis](https://www.khanacademy.org/cs/-/5201788906799104) / [Docs](https://www.khanacademy.org/cs/i/4703771890335744)
-
-## Archives
-- [Digital Dragon]()
-- [BlueLeaf]()
-- [Aidabaida]()
-- [LiveChat](https://www.khanacademy.org/cs/-/5175255520051200)
+## Off-site projects
 - [KA Wikia](https://khanacademy.fandom.com/wiki/Khan_Academy_Wiki)
+- [KA Extension](https://chrome.google.com/webstore/detail/the-khan-academy-extensio/gniggljddhajnfbkjndcgnomkddfcial?hl)
+- [Our JS Editor](https://ourjseditor.com/)
 
-## Technical
+## Noteworthy programs
+- [KACP Contests Homepage](https://www.khanacademy.org/cs/-/5745407636209664)
+- [MineKhan by Willard](https://www.khanacademy.org/cs/i/5647155001376768) / [External Link](https://willard.fun/minekhan)
 - [Known PJS Bugs](https://www.khanacademy.org/cs/-/6117906177359872)
-- [SHA-256 Encryption by Willard](https://www.khanacademy.org/computer-programming/sha-256-encryption/6084582122012672)
-- [Spin-off Viewer by Vexcess](https://www.khanacademy.org/computer-programming/spin-off-tree-viewer/5931097750814720)
+- [Get Program Data by Jett](https://khanacademy.org/cs/i/6152415778373632)
+<small>Please give out suggestions!</small>
+
+## Learning
+- [Tutorials by Twiga Studio](https://www.khanacademy.org/cs/-/5912802022998016)
+- [Lionofgd's Guide to P3D](https://www.khanacademy.org/cs/-/5449718509731840)
+- [Platformer Physics by Vexcess](https://www.khanacademy.org/computer-programming/platformer-physics/5217723531345920)
+- [Simple Elements by Aliquis](https://www.khanacademy.org/cs/-/5201788906799104) / [Docs](https://www.khanacademy.org/cs/i/4703771890335744)
 
 ## API
 - [Internal API Reference by Matthias](https://www.khanacademy.org/cs/-/6389992281473024) / [External Link](https://lukekrikorian.github.io/api-docs/)
-- [SAL KA by Quinn Hardbrook](https://www.khanacademy.org/computer-programming/sal-ka-an-api-labs/5414181885788160)
-- [New KA API by Vexcess](https://www.khanacademy.org/computer-programming/new-ka-api/5236998489030656)
+- [SAL KA by Quinn Hardbrook](https://www.khanacademy.org/cs/-/5414181885788160)
+- [New KA API by Vexcess](https://www.khanacademy.org/cs/-/5236998489030656)
+- [LiveChat](https://www.khanacademy.org/cs/-/5175255520051200)
+- [Spin-off Viewer by Vexcess](https://www.khanacademy.org/cs/-/5931097750814720)
 
-## Pushing Limits
+## Pushing limits
 - [Open Problems by Aliquis](https://www.khanacademy.org/cs/-/6058668928843776)
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
-## Pushing Limits (protected) <!-- HASHES START -->
+## Pushing limits (hidden) <!-- HASHES START -->
 The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is the ID of the program.
 <!-- INSERT SECRET FILE HERE -->
 <!-- HASHES END -->
 
 ## Zendesk
-- [Apply to KACP Challenge Council](https://support.khanacademy.org/hc/en-us/articles/115003791172)
+- [Home](https://support.khanacademy.org/hc/en-us)
+- [Report an issue](https://support.khanacademy.org/hc/en-us/requests/new?ticket_form_id=261008)
+- [Ban appeal form](https://docs.google.com/forms/d/e/1FAIpQLSfT5mvSaMjLi9KoD3eKeypijof_2-t4__howlKHQiu2Voy9KQ/viewform)
+- [Apply to KACP](https://support.khanacademy.org/hc/en-us/articles/115003791172)
 
-Anything I missed? Open a pull request.
+Anything I missed? Open a pull request and edit [source.md](https://github.com/kqwq/meta-khan/blob/master/source.md)

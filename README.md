@@ -54,4 +54,4 @@ The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is t
 - [Ban appeal form](https://docs.google.com/forms/d/e/1FAIpQLSfT5mvSaMjLi9KoD3eKeypijof_2-t4__howlKHQiu2Voy9KQ/viewform)
 - [Apply to KACP](https://support.khanacademy.org/hc/en-us/articles/115003791172)
 
-Anything I missed? Open a pull request.
+Anything I missed? Open a pull request and edit [source.md](https://github.com/kqwq/meta-khan/blob/master/source.md)
