@@ -1,4 +1,4 @@
-# Khan Hub
+# meta-khan
 
 All the Khan Academy links in one place
 
