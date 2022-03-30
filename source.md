@@ -38,7 +38,7 @@ All the Khan Academy links in one place
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
 ## Pushing limits (hidden) <!-- HASHES START -->
-The following programs have a SHA-256 hash of *XXXXXXXXXX, where XXXXXXXXXX is the ID of the program.
+These programs likely break guidelines. The program titles have been changed to prevent guardians from searching for them, but they can be verified by knowing the original ID.
 <!-- INSERT SECRET FILE HERE -->
 <!-- HASHES END -->
 
