@@ -20,7 +20,8 @@ All the Khan Academy Computing links in one place
 - [The Ultimate TD](https://khanacademy.org/cs/i/6295872812679168)
 - [MineKhan](https://www.khanacademy.org/cs/i/5647155001376768) / [External Link](https://willard.fun/minekhan)
 - [Get Program Data](https://khanacademy.org/cs/i/6152415778373632)
-- Feel free to add any programs you find interesting!
+
+Feel free to add any programs you find interesting!
 
 ### Learning
 - [Tutorials by Twiga Studio](https://www.khanacademy.org/cs/-/5912802022998016)
@@ -40,7 +41,7 @@ All the Khan Academy Computing links in one place
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
 ### Pushing limits (hidden) <!-- HASHES START -->
-These programs break guidelines. To prevent guardians from searching for them, I changed the programs' names, but a program can be verified by knowing its original ID.
+These programs break guidelines. To prevent guardians from searching for them, I changed the programs' names, but each program can be verified by knowing its original ID.
 - [Detect code edits](https://kqwq.github.io/meta-khan?hash=2ae686c47b1812ddbdbb6223736aa52ae00c8a9434628d01af81b6bd2d665f9f)
 - [Editor inside of output](https://kqwq.github.io/meta-khan?hash=e31b9deec89c7eb6346ba46b6d49ac0fe84aa825ba7670557c4188bac5f8e062)
 - [HTML in PJS](https://kqwq.github.io/meta-khan?hash=f4367996f81bb29c4a73841bd919c3c2d0bc1f2962ce98a8a8feb45f6ab01146)

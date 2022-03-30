@@ -20,7 +20,8 @@ All the Khan Academy Computing links in one place
 - [The Ultimate TD](https://khanacademy.org/cs/i/6295872812679168)
 - [MineKhan](https://www.khanacademy.org/cs/i/5647155001376768) / [External Link](https://willard.fun/minekhan)
 - [Get Program Data](https://khanacademy.org/cs/i/6152415778373632)
-- Feel free to add any programs you find interesting!
+
+Feel free to add any programs you find interesting!
 
 ### Learning
 - [Tutorials by Twiga Studio](https://www.khanacademy.org/cs/-/5912802022998016)
@@ -40,7 +41,7 @@ All the Khan Academy Computing links in one place
 - [Flight of the Bumblebee by Edward](https://www.khanacademy.org/cs/-/5193345356677120)
 
 ### Pushing limits (hidden) <!-- HASHES START -->
-These programs break guidelines. To prevent guardians from searching for them, I changed the programs' names, but a program can be verified by knowing its original ID.
+These programs break guidelines. To prevent guardians from searching for them, I changed the programs' names, but each program can be verified by knowing its original ID.
 <!-- INSERT SECRET FILE HERE -->
 <!-- HASHES END -->
 
