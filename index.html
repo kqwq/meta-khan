@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan Academy</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 5%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bad Program Validator</h1>
+  <small>SHA-256 hashes for Khan Academy program IDs that break guidelines.</small><br><br><br>
+  <input type="text" id="in">
+  <label for="in">Program ID</label>
+  <button id="check" onclick="convert()">Check</button>
+
+  <h3>Result</h3>
+  <div id="result"></div>
+
+  <h3>Matches</h3>
+  <div id="matches"></div>
+
+</body>
+<script>
+  
+document.querySelector("#in").addEventListener("keyup", function(event) {
+  event.preventDefault();
+  if (event.keyCode === 13) {
+    document.querySelector("#check").click();
+  }
+});
+function convert() {
+  var value = document.querySelector("#in").value;
+  var text = "*" + value;
+  var hash = sha256.create()
+  hash.update(text);
+  var digest = hash.hex();
+  document.querySelector("#result").innerHTML = digest;
+
+  // Check if the hash matches any of the hashes
+  var match = false;
+  for (var i = 0; i < hashes.length; i++) {
+    if (digest == hashes[i]) {
+      match = true;
+    }
+  }
+  if (match) {
+    document.querySelector("#matches").innerHTML = 
+    `
+    <div class="match">
+      <h4>Match!</h4>
+      <p>The hash matches the hash of the following program:</p>
+      <a href="https://www.khanacademy.org/cs/s/${value}">Program Link for ${value}</a>
+      <img src="https://www.khanacademy.org/computer-programming/expecto-patronum/${value}/latest.png">
+    </div>
+    `;
+  } else {
+    document.querySelector("#matches").innerHTML = "No matches";
+  }
+}
+
+// fetch 
+var hashes = []
+fetch("./README.md")
+  .then(response => response.text())
+  .then(text => {
+    hashes = text.match(/hash=([0-9a-f]{64})/g);
+    hashes = hashes.map(hash => hash.replace("hash=", ""));
+  }).catch(err => {
+    alert("Could not load hashes from README.md");
+  });
+
+</script>
+</html>
